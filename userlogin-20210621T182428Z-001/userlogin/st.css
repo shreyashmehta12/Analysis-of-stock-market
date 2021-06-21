@@ -1,0 +1,26 @@
+h3{background-color:#f00;margin-top:0px;padding:5px;color:#fff;}
+table
+{ 
+  
+}
+td
+{
+  border-collapse:collapse;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  color:#3FF;
+}
+ th,td
+ {
+   text-align:center;
+   border-bottom:1px solid #ddd;
+ }
+ tr:nth-child(even)
+ {
+   background-color:#999;
+ }
+  tr:nth-child(odd)
+ {
+   background-color:#CCC;
+ }
+  
+

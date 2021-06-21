@@ -1,0 +1,399 @@
+h1{}
+h2{}
+h3{background-color:#f00;margin-top:0px;padding:5px;color:#fff;}
+h4{}
+h5{}
+h6{}
+.img{
+	border-radius:5px;
+	border:1px #FFFFFF solid;
+	}
+body{font-family:"Arial", Gadget, sans-serif;padding:inherit;margin:0px;}
+.header{
+	background-color:#3CF;
+	padding:10px;
+	margin-left:0px;
+	
+}
+.header h1{
+	float:right;
+	text-align:center;	
+	text-shadow: 3px 5px 3px #FFF;
+}
+.nav{
+	background:#F93;float:left;
+	width:100%;
+	box-shadow: 5px 5px 5px #000;
+	margin-bottom:10px;cursor: pointer;
+	}
+.nav li{
+	position: relative;
+    display: inline-block;
+}
+#menu{
+	width:100%;
+	margin-left:-20px;
+}
+#menu li{
+	float:left;
+	list-style-type:none;
+	padding-bottom:10px;
+	margin-top:-5px;
+}
+#menu li a{
+	width:auto;
+	padding:15px;
+	list-style-type:none;
+	text-decoration:none;
+	color:#fff;
+	font-weight:bold;
+	font-variant:small-caps;
+	font-size:18px;
+	font-family:Verdana, Geneva, sans-serif;
+}
+#menu li a:hover{
+	text-shadow: 5px 5px 5px #000;
+}
+.social{
+	margin-top:-30px;
+	float:right;
+	list-style-type:none;
+	margin-right:20px;
+	}
+.social li{
+	float:left;
+	list-style-type:none;
+}
+	
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position:relative;
+    background-color: #E4F3AF;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+
+#main{
+	
+	float:left;
+	width:98%;
+	padding:10px;
+}
+.left{
+	background-color:#E4F3AF;
+	border:none;
+	width:250px;
+}
+.news{
+	background-color:#E4F3AF;
+	border:none;
+	width:250px;
+}
+.news h3{
+	background-color:#f00;
+	margin-top:0px;
+	padding:5px;
+	color:#fff;
+}
+.news li{
+	margin-top:0px;
+	list-style-type:none;
+	margin-left:-40px;
+}
+.news li img{
+	margin-top:0px;
+	list-style-type:none;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	border-radius:5px;
+}
+.news li a{
+	list-style-type:none;
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}
+.news li p{
+	margin-top:0px;
+	list-style-type:none;
+	padding:10px;
+	border-bottom:1px #000000 dotted;
+}
+.news li a:hover{
+	list-style-type:none;
+	text-decoration:none;
+	
+	color:#f00;
+	font-weight:bold;
+	}
+.lefts{
+	border:none;
+	width:250px;
+	float:left;
+}
+.left h3{
+	background-color:#f00;
+	margin-top:0px;
+	padding:5px;
+	color:#fff;
+}
+.left li{
+	margin-top:0px;
+	list-style-type:none;
+	margin-left:-40px;
+	border-bottom:1px #000 dotted;
+	padding:10px;
+}
+.left li a{
+	list-style-type:none;
+	text-decoration:none;
+	font-size:24px;
+	color:#000;
+}
+.left li a:hover{
+	list-style-type:none;
+	text-decoration:none;
+	font-size:24px;
+	color:#f00;
+	font-weight:bold;
+	}
+.right{
+	border:0px #F00 solid;
+	float:left;
+	width:79%;
+	margin-left:20px;
+	}
+.right img{
+	border:0px #F00 solid;
+	float:left;
+	margin-right:10px;
+}
+.right p{
+	border:0px #F00 solid;
+	text-align:justify;
+	margin-left:10px;
+}
+.lefts .contactdtl{
+	background-color:#E4F3AF;
+	border:none;
+	width:240px;
+	padding:10px;
+	}
+.right .contact{
+	float:right;
+	background-color:#DDD;
+	padding:10px;
+}
+.right .contact h4{
+font-size:20px;
+color:#f00;
+background-color:#E4F3AF;
+padding:10px;
+margin:0px;
+}
+input[type="text"],[type="number"],[type="email"],[type="text"]{
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+	margin-left:-5px;
+}
+textarea{
+	width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+	margin-left:-5px;
+	}
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 0px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#footermain{
+	float:left;
+	width:100%;
+	background-color:#CCC;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+#footermain .block1{
+	float:left;
+	margin-left:50px;
+	width:28%;
+	height:38%;
+	background-color:#4CAF50;
+}
+#footermain .block1 p{
+	padding-left:10px;
+	color:#fff;
+	margin:0px;
+	font-family:"Comic Sans MS", cursive;
+	padding-bottom:5px;
+}
+#footermain .block1 p a:hover{
+	color:#fff;
+}
+#footermain h4{
+	font-size:20px;
+	padding-left:10px;
+}
+#footermain li{
+	list-style-type:none;
+	background-color:#4CAF50;
+	width:auto;
+	padding:5px;border-bottom:1px dotted #FFFFFF;
+	margin-top:0px;
+}
+#footermain li a{
+	list-style-type:none;
+	text-decoration:none;
+	
+	font-size:18px;
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+}
+#footermain li a:hover{
+	list-style-type:none;
+	text-decoration:none;
+	
+	font-size:18px;
+	color:#f00;
+	font-family:"Comic Sans MS", cursive;
+	font-weight:bold;
+	margin-left:10px;
+}
+.block1 img{
+	width:auto;
+	margin-left:10px;
+	height:70px;
+	width:72px;
+	border:2px #000 solid;
+}
+#footer{
+	background-color:#666;
+	text-align:center;
+	float:left;
+	width:100%;
+	font-size:18px;
+	color:#fff;
+}
+#footer a{
+	text-decoration:none;
+}
+#footer a:hover{
+	text-decoration:none;
+	color:#fff;
+	
+}
+	
+	table{
+		
+		}
+td
+{
+  border-collapse:collapse;
+  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ 
+}
+ th,td
+ {
+   text-align:center;
+   border-bottom:1px solid #ddd;
+ }
+ tr:nth-child(even)
+ {
+   background-color:#E4F3AF;
+ }
+  tr:nth-child(odd)
+ {
+   background-color:#FF8080;
+ }
+  .awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      
+      text-align: center;
+      
+      color:#313131;
+      font-size:17px;
+      font-weight: bold;
+      
+      -webkit-animation:colorchange 8s infinite alternate;
+      
+      
+    }
+
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
